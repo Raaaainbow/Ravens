@@ -47,7 +47,7 @@ public class Ravens {
             System.out.println("-------------------------------");
             System.out.print("Do you wish to recieve another fact? ");
             usedFacts.add(randNum);
-            System.out.println(usedFacts.size());
+            // System.out.println(usedFacts.size()); // used for debugging
     }
 
     public static void factReader() throws FileNotFoundException {
